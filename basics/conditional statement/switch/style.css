@@ -1,0 +1,62 @@
+ :root {
+     --primary: #2c3e50;
+     --secondary: #34495e;
+     --accent: #e74c3c;
+     --text: #ecf0f1;
+     --light-bg: #f5f6fa;
+     --dark-bg: #1a1a1a;
+     --metal: #7f8c8d;
+ }
+
+
+ body {
+     background-color: var(--metal);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     /* atau tinggi yang sesuai dengan kebutuhan */
+ }
+
+ .container {
+     display: flex;
+     flex-direction: column;
+     /* Susun elemen secara vertikal */
+     align-items: center;
+     /* Tengah horizontal */
+     justify-content: center;
+     /* Tengah vertikal (jika container punya tinggi) */
+     /* Contoh: tinggi viewport penuh */
+     gap: 10px;
+     /* Jarak antar elemen */
+     background-color: var(--primary);
+     width: 300px;
+     height: 200px;
+     padding: 10px;
+     border-radius: 10px;
+     box-shadow: 56px 20px 20px 5px rgba(0, 0, 0, .5);
+ }
+
+ #inputTxt {
+    margin-top: 50px;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+ }
+
+ .btn {
+    padding: 5px;
+    width: 50px;
+    transition: .5s;
+ }
+
+ .btn:hover {
+    transform: scale(1.2);
+    background-color: #e74c3c;
+ }
+
+ .outputTxt {
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 0 0 20px yellow;
+ }
