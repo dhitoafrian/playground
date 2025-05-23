@@ -1,0 +1,11 @@
+🔄 Switch-Case  
+Digunakan untuk percabangan multi-kondisi.  
+
+Contoh 1: Cek Hari Kerja  
+```js
+switch (hari) {
+  case 'senin':
+    console.log('Hari lembur');
+    break;
+  // ...
+}
